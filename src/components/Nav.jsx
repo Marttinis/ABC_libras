@@ -1,18 +1,18 @@
 import './Nav.css'
 function Nav() {
     return (
-        <div>
+        <div id="div">
             <nav>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
 
-                <img id="logo" src="src\assets\images\imagem_2024-11-05_110325305-removebg-preview.png" alt="logo" />
+                <img id="logo" src="src\assets\images\imagem_2024-11-05_110325305-removebg-preview.png" alt="logo" title='ABC Libras' />
 
                 <ul className="navbar">
                     <li><a className="linkbar" href="/">Sobre</a></li>
                     <li><a className="linkbar" href="conteudos">Conteúdo</a></li>
-                    <li><a className="linkbar" href="#videos">Vídeos</a></li>
-                    <li><a className="linkbar" href="#especialistas">Especialistas</a></li>
-                    <li><a className="linkbar" href="#contato">Contato</a></li>
+                    <li><a className="linkbar" href="videos">Vídeos</a></li>
+                    <li><a className="linkbar" href="especialistas">Especialistas</a></li>
+                    <li><a className="linkbar" href="contato">Contato</a></li>
                 </ul>
 
                 <form>
