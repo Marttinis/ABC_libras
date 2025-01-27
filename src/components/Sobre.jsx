@@ -3,8 +3,8 @@ function Sobre() {
     return (
         <section id="inicio">
 
-            <div>
-                <div>
+            
+                <div id='titulo'>
                     <h1>Sobre o Blog</h1>
                 </div>
                 <p>
@@ -16,7 +16,7 @@ function Sobre() {
 
 
                 </p>
-            </div>
+            
         </section>
     );
 }

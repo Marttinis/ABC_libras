@@ -1,13 +1,15 @@
+import './Especialistas.css'
 function Especialistas() {
     return (
-        <section id="especialistas">
+        <div id="especialistas">
+           
 
 
 
-            <div classNames="perfil">
+            <div className="perfil">
 
 
-                <img classNamess="imgperfil"
+                <img className="imgperfil"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2uULIpj2qy0g2mOF1RwpI0OHLVxY9pwFNGA&s"
                     alt="foto da autora Emmanuelle Laborit" title="Emmanuelle Laborit" />
                 <h3>Emmanuelle Laborit</h3> 
@@ -21,8 +23,8 @@ function Especialistas() {
             </div>
 
 
-            <div classNamess="perfil">
-                <img classNames="imgperfil"
+            <div className="perfil">
+                <img className="imgperfil"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvADZ_Qo-9D6Jj00EpfdQIJVyVmv4qFbZglA&s"
                     alt="Pierre Desloges" title="Pierre Desloges" />
                 <h3>Pierre Desloges</h3>
@@ -34,7 +36,7 @@ function Especialistas() {
                 </p>
             </div>
 
-            <div classNamess="perfil">
+            <div className="perfil">
                 <img src="https://media.licdn.com/dms/image/C5603AQFkSUtExUa4WQ/profile-displayphoto-shrink_200_200/0/1516783905534?e=2147483647&v=beta&t=2C1OmSeb9Gyqpbm_bg4wPn7KiyvNqj7eUcQwJAMZYLg"
                     alt="Sueli Ramalho Segala" title="Sueli Ramalho Segala"/>
                 <h3>Sueli Ramalho Segala</h3>
@@ -49,7 +51,7 @@ function Especialistas() {
             </div>
 
 
-        </section>
+        </div>
     );
 }
 

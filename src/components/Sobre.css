@@ -19,10 +19,9 @@
 }
 
 
-#inicio div h1{
+#titulo{
     background-color: rgb(2, 31, 4);
     border-radius: 5px;
-    
     padding-top: 4px;
     padding-bottom: 4px;
     margin-top: 0;
